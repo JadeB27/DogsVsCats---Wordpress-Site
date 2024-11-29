@@ -1,3 +1,114 @@
-body{
-    background-color: green !important;
+/* logged-in.css */
+
+/* ! Element 1 - Body */
+
+/* Changes body colour to a very light blue */
+body {
+    background-color: #f0f8ff; 
 }
+
+/* ! Element 2 - Header */
+
+/* Changes header to a darker blue and the word colour to white */
+header > div.has-background{
+    background-color: #016180 !important;
+    color: #f8ede5;
+}
+
+/* ! Element 3 - Footer */
+
+/* Changes the word colour to a darker blue and changes the colour to white */
+footer {
+    background-color: #016180 !important; 
+    color: #f8ede5;
+}
+
+/* Changes the site slogan to white */
+.wp-block-site-tagline{
+    color: #f8ede5;
+}
+
+/* ! Element 4 - Links */
+
+/* Makes the link baby blue */
+a {
+    color: #4a8cb0; 
+}
+
+/* Makes the hover on the links brown */
+a:hover {
+    color: #4c2c17; 
+}
+
+/* ! Element 5 - Query Post Image */
+
+/* Makes query post Images zoom in and out */
+.attachment-post-thumbnail:hover {
+    transform: scale(1.2);
+    transition: transform 0.3s ease-in-out; 
+}
+
+/* ! Element 6 - Header 1 */
+
+/* Gives the site titles (h1s) cursive font */
+.wp-block-heading {
+    font-family: cursive;
+}
+
+/* ! Element 7 - Button */
+
+/* Changes the buttons to have a zoom in and out effect/changes and the colour to brown */
+.wp-block-button:hover {
+    transform: scale(1.2);
+    transition: transform 0.3s ease-in-out; 
+    background-color: #4c2c17;
+}
+
+/* ! Element 8 - All Images Hover(Except Query) */
+
+/* Adds a box shadow to images on hover */
+img:hover {
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3); 
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+/* ! Element 9 - Paragraph Tag */
+
+/* Makes p tags bouce on page load */
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px); 
+    }
+}
+
+.wp-block-group p{
+    animation: bounce 1s ease;
+}
+
+/* ! Element 10 - Calender */
+
+/* Makes the calender slide up on load */
+@keyframes slideUp {
+    0% {
+        transform: translateY(20px);
+        opacity: 0; 
+    }
+    100% {
+        transform: translateY(0); 
+        opacity: 1; 
+    }
+}
+
+/* Changes the background of the calender to white */
+#wp-calendar {
+    background-color: #f0f8ff;
+    padding: 20px;
+    text-align: center;
+    transform: translateY(20px); 
+    opacity: 0; 
+    animation: slideUp 0.5s ease forwards; 
+}
+

@@ -102,52 +102,52 @@
 			],
 			"palette": [
 				{
-					"color": "#f9f9f9",
+					"color": "#f7f4f1",
 					"name": "Base",
 					"slug": "base"
 				},
 				{
-					"color": "#ffffff",
+					"color": "#e6e1dc",
 					"name": "Base / Two",
 					"slug": "base-2"
 				},
 				{
-					"color": "#111111",
+					"color": "#2b2d42",
 					"name": "Contrast",
 					"slug": "contrast"
 				},
 				{
-					"color": "#636363",
+					"color": "#555b6e",
 					"name": "Contrast / Two",
 					"slug": "contrast-2"
 				},
 				{
-					"color": "#A4A4A4",
+					"color": "#8d99ae",
 					"name": "Contrast / Three",
 					"slug": "contrast-3"
 				},
 				{
-					"color": "#cfcabe",
+					"color": "#f4a261",
 					"name": "Accent",
 					"slug": "accent"
 				},
 				{
-					"color": "#c2a990",
+					"color": "#e76f51",
 					"name": "Accent / Two",
 					"slug": "accent-2"
 				},
 				{
-					"color": "#d8613c",
+					"color": "#2a9d8f",
 					"name": "Accent / Three",
 					"slug": "accent-3"
 				},
 				{
-					"color": "#b1c5a4",
+					"color": "#a8dadc",
 					"name": "Accent / Four",
 					"slug": "accent-4"
 				},
 				{
-					"color": "#b5bdbc",
+					"color": "#457b9d",
 					"name": "Accent / Five",
 					"slug": "accent-5"
 				}
